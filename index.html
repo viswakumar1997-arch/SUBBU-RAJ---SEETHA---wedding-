@@ -4,189 +4,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#123b25">
-<title>Subburaj & Seetha | Wedding Invitation</title>
+<meta name="theme-color" content="#143c2a">
+<title>Subburaj &amp; Seetha | Wedding Invitation</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<audio id="weddingMusic" loop preload="metadata">
+<audio id="weddingMusic" loop preload="auto">
   <source src="Is%20It%20Love%20Bgm.mp3" type="audio/mpeg">
 </audio>
-
-<button id="musicToggle" class="music-toggle">♫ MUSIC OFF</button>
 
 <section class="cover" id="cover">
   <div class="leaf leaf-left"></div>
   <div class="leaf leaf-right"></div>
+  <div class="flower flower-one">✿</div>
+  <div class="flower flower-two">❀</div>
 
-  <div class="flower flower-top">✿</div>
-  <div class="flower flower-bottom">❀</div>
-
-  <div class="cover-content" id="coverContent">
+  <div class="cover-content">
+    <p class="eyebrow">WITH THE BLESSINGS OF OUR FAMILIES</p>
     <p class="cover-label">THE WEDDING OF</p>
-
-    <div class="monogram">S<span>&</span>S</div>
-
-    <p class="cover-names">SUBBURAJ & SEETHA</p>
-
-    <button class="open-button" id="openInvite">
-      OPEN INVITATION
-    </button>
+    <div class="monogram">S <span>&amp;</span> S</div>
+    <h1>Subburaj <span>&amp;</span> Seetha</h1>
+    <p class="cover-date">20 NOVEMBER 2026</p>
+    <button id="openBtn" class="open-button">OPEN INVITATION</button>
+    <p class="cover-note">A beautiful beginning to our forever</p>
   </div>
 </section>
 
-<main id="invitation">
-
-  <section class="hero section-pad">
-    <p class="eyebrow">TOGETHER WITH OUR FAMILIES</p>
-    <p class="script">With love and happiness</p>
-    <h1>Subburaj <span>&</span> Seetha</h1>
-    <p class="hero-copy">
-      Two hearts, one journey, a lifetime of love.
-    </p>
-    <div class="ornament">✦ ❦ ✦</div>
-    <p class="scroll-note">SCROLL TO EXPLORE ↓</p>
+<main id="invitation" style="display:none">
+  <section class="hero section">
+    <p class="eyebrow">TWO HEARTS, ONE BEAUTIFUL JOURNEY</p>
+    <h1>Subburaj <span>&amp;</span> Seetha</h1>
+    <p>With love and the blessings of our families,</p>
+    <p>we invite you to celebrate our wedding.</p>
+    <div class="decorative-divider">❦ ❦ ❦</div>
+    <h2>20 November 2026</h2>
+    <p>9:00 AM – 10:30 AM</p>
   </section>
 
-  <section class="story section-pad">
-    <p class="eyebrow">THE BEGINNING OF FOREVER</p>
-    <h2>Two Souls, One Beautiful Story</h2>
-    <p class="body-copy">
-      With the blessings of our families, we joyfully begin
-      a new chapter together. Your presence and blessings
-      will make our celebration truly special.
-    </p>
-    <div class="floral-mark">❦</div>
+  <section class="section story">
+    <p class="eyebrow">OUR SPECIAL DAY</p>
+    <h2>A New Chapter Begins</h2>
+    <p>Two families, two hearts, and one promise of togetherness.</p>
+    <p>We would be delighted to have you with us as we begin this new journey.</p>
   </section>
 
-  <section class="couple">
-    <article class="person groom">
-      <div class="person-photo photo-one"></div>
-      <div class="person-text">
-        <span class="script">Groom</span>
-        <h2>SUBBURAJ</h2>
-      </div>
-    </article>
-
-    <div class="and-mark">&</div>
-
-    <article class="person bride">
-      <div class="person-photo photo-two"></div>
-      <div class="person-text">
-        <span class="script">Bride</span>
-        <h2>SEETHA</h2>
-      </div>
-    </article>
-  </section>
-
-  <section class="date-reveal section-pad">
-    <p class="eyebrow">A DATE TO REMEMBER</p>
-    <h2>Our Wedding Day</h2>
-    <p>Scratch the card to reveal our special date.</p>
-
-    <div class="scratch-wrap">
-      <div class="scratch-under">
-        <span>FRIDAY</span>
-        <strong>20</strong>
-        <b>NOVEMBER 2026</b>
-        <small>9:00 AM – 10:30 AM</small>
-      </div>
-      <canvas id="scratchCanvas"></canvas>
+  <section class="section">
+    <p class="eyebrow">THE COUPLE</p>
+    <h2>Meet the Couple</h2>
+    <div class="couple-grid">
+      <article class="couple-card">
+        <img src="IMG-20260918-WA0002.jpg" alt="Subburaj">
+        <h3>Subburaj</h3>
+        <p>The Groom</p>
+      </article>
+      <article class="couple-card">
+        <img src="IMG-20260918-WA0003.jpg" alt="Seetha">
+        <h3>Seetha</h3>
+        <p>The Bride</p>
+      </article>
     </div>
-
-    <p class="scratch-hint">✨ Scratch here to reveal our date ✨</p>
   </section>
 
-  <section class="events section-pad">
+  <section class="section event-section">
     <p class="eyebrow">PLEASE JOIN US</p>
-    <h2>Wedding Celebrations</h2>
-
+    <h2>Wedding Ceremony</h2>
     <div class="event-card">
-      <div class="event-icon">❦</div>
-      <p class="script">The Wedding Ceremony</p>
-      <h3>20 November 2026</h3>
-      <p class="event-time">9:00 AM – 10:30 AM</p>
-      <div class="fine-line"></div>
-      <p class="venue-name">Deva Kalyana Mahal</p>
+      <div class="event-icon">❀</div>
+      <h3>Subburaj &amp; Seetha</h3>
+      <p>Friday, 20 November 2026</p>
+      <p>9:00 AM – 10:30 AM</p>
+      <p class="venue">Deva Kalyana Mahal</p>
       <p>Ottapidaram, Thoothukudi, Tamil Nadu</p>
-      <a class="map-button"
-         href="https://www.google.com/maps/search/?api=1&query=Deva+Kalyana+Mahal+Ottapidaram+Thoothukudi+Tamil+Nadu"
-         target="_blank" rel="noopener">
-        📍 VIEW VENUE ON MAPS
-      </a>
     </div>
-
     <div class="event-card">
-      <div class="event-icon">✦</div>
-      <p class="script">The Reception</p>
-      <h3>21 November 2026</h3>
-      <p class="event-time">9:30 AM – 10:30 AM</p>
-      <div class="fine-line"></div>
-      <p class="venue-name">Deva Kalyana Mahal</p>
+      <div class="event-icon">❀</div>
+      <h3>Wedding Reception</h3>
+      <p>Saturday, 21 November 2026</p>
+      <p>9:30 AM – 10:30 AM</p>
+      <p class="venue">Deva Kalyana Mahal</p>
       <p>Ottapidaram, Thoothukudi, Tamil Nadu</p>
-      <a class="map-button"
-         href="https://www.google.com/maps/search/?api=1&query=Deva+Kalyana+Mahal+Ottapidaram+Thoothukudi+Tamil+Nadu"
-         target="_blank" rel="noopener">
-        📍 VIEW VENUE ON MAPS
-      </a>
     </div>
   </section>
 
-  <section class="countdown-section section-pad">
+  <section class="section">
     <p class="eyebrow">COUNTING DOWN TO FOREVER</p>
-    <h2>Until We Say “I Do”</h2>
-    <div class="countdown">
-      <div><strong id="days">0</strong><span>DAYS</span></div>
-      <div><strong id="hours">0</strong><span>HOURS</span></div>
-      <div><strong id="minutes">0</strong><span>MINUTES</span></div>
-      <div><strong id="seconds">0</strong><span>SECONDS</span></div>
+    <h2>Our Wedding Countdown</h2>
+    <div class="countdown" id="countdown">
+      <div><strong id="days">0</strong><span>Days</span></div>
+      <div><strong id="hours">0</strong><span>Hours</span></div>
+      <div><strong id="minutes">0</strong><span>Minutes</span></div>
+      <div><strong id="seconds">0</strong><span>Seconds</span></div>
     </div>
   </section>
 
-  <section class="gallery-section section-pad">
-    <p class="eyebrow">LITTLE MOMENTS, BIG LOVE</p>
-    <h2>Our Memories</h2>
-    <p class="body-copy">A few moments we love to share with you.</p>
-
+  <section class="section gallery-section">
+    <p class="eyebrow">OUR MEMORIES</p>
+    <h2>Photo Gallery</h2>
     <div class="gallery">
-      <button class="gallery-image" data-image="IMG-20260918-WA0002.jpg">
-        <img src="IMG-20260918-WA0002.jpg" alt="Wedding memory one">
-      </button>
-      <button class="gallery-image" data-image="IMG-20260918-WA0003.jpg">
-        <img src="IMG-20260918-WA0003.jpg" alt="Wedding memory two">
-      </button>
-      <button class="gallery-image wide" data-image="IMG-20260918-WA0006.jpg">
-        <img src="IMG-20260918-WA0006.jpg" alt="Wedding memory three">
-      </button>
+      <img src="IMG-20260918-WA0002.jpg" alt="Wedding memory one">
+      <img src="IMG-20260918-WA0003.jpg" alt="Wedding memory two">
+      <img src="IMG-20260918-WA0006.jpg" alt="Wedding memory three">
     </div>
   </section>
 
-  <section class="closing section-pad">
-    <div class="closing-flower">❦</div>
-    <p class="script">With love,</p>
-    <h2>Subburaj <span>&</span> Seetha</h2>
-    <p class="body-copy">
-      Your presence and blessings will make our day special.
-    </p>
-    <p class="closing-date">20 · 11 · 2026</p>
-    <button class="open-button" id="backToTop">BACK TO TOP ↑</button>
+  <section class="section closing">
+    <div class="monogram">S <span>&amp;</span> S</div>
+    <h2>We can't wait to celebrate with you!</h2>
+    <p>Your presence will make our special day even more memorable.</p>
+    <p class="signature">With love, Subburaj &amp; Seetha</p>
+    <button id="backToTop" class="open-button">BACK TO COVER</button>
   </section>
-
 </main>
-
-<div class="lightbox" id="lightbox">
-  <button id="closeLightbox">×</button>
-  <img id="lightboxImage" alt="Wedding photo enlarged">
-</div>
 
 <script>
 const cover = document.getElementById("cover");
 const invitation = document.getElementById("invitation");
+const openBtn = document.getElementById("openBtn");
+const music = document.getElementById("weddingMusic");
 
-invitation.style.display = "none";
+openBtn.addEventListener("click", () => {
+  // Start music directly from the visitor's click.
+  music.volume = 0.7;
+  music.currentTime = 0;
+  music.play().catch(() => {
+    // Some browsers may block playback.
+  });
 
-document.getElementById("openInvite").addEventListener("click", () => {
   cover.classList.add("opening");
 
   setTimeout(() => {
@@ -196,120 +140,34 @@ document.getElementById("openInvite").addEventListener("click", () => {
   }, 1700);
 });
 
-const music = document.getElementById("weddingMusic");
-const musicToggle = document.getElementById("musicToggle");
+function updateCountdown() {
+  const weddingDate = new Date("2026-11-20T09:00:00+05:30");
+  const now = new Date();
+  let remaining = Math.max(0, weddingDate.getTime() - now.getTime());
 
-musicToggle.addEventListener("click", async () => {
-  if (music.paused) {
-    try {
-      await music.play();
-      musicToggle.textContent = "♫ MUSIC ON";
-    } catch (error) {
-      musicToggle.textContent = "♫ TAP TO PLAY";
-    }
-  } else {
-    music.pause();
-    musicToggle.textContent = "♫ MUSIC OFF";
-  }
-});
+  const days = Math.floor(remaining / 86400000);
+  remaining %= 86400000;
+  const hours = Math.floor(remaining / 3600000);
+  remaining %= 3600000;
+  const minutes = Math.floor(remaining / 60000);
+  const seconds = Math.floor((remaining % 60000) / 1000);
+
+  document.getElementById("days").textContent = days;
+  document.getElementById("hours").textContent = hours;
+  document.getElementById("minutes").textContent = minutes;
+  document.getElementById("seconds").textContent = seconds;
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
 
 document.getElementById("backToTop").addEventListener("click", () => {
+  music.pause();
+  music.currentTime = 0;
   invitation.style.display = "none";
   cover.style.display = "flex";
   cover.classList.remove("opening");
   window.scrollTo(0, 0);
 });
-
-const target = new Date("2026-11-20T09:00:00+05:30").getTime();
-
-function updateCountdown() {
-  let difference = Math.max(0, target - Date.now());
-
-  document.getElementById("days").textContent =
-    Math.floor(difference / 86400000);
-
-  document.getElementById("hours").textContent =
-    Math.floor((difference % 86400000) / 3600000);
-
-  document.getElementById("minutes").textContent =
-    Math.floor((difference % 3600000) / 60000);
-
-  document.getElementById("seconds").textContent =
-    Math.floor((difference % 60000) / 1000);
-}
-
-updateCountdown();
-setInterval(updateCountdown, 1000);
-
-const canvas = document.getElementById("scratchCanvas");
-const ctx = canvas.getContext("2d");
-let scratching = false;
-
-function setupScratch() {
-  const box = canvas.getBoundingClientRect();
-  const ratio = window.devicePixelRatio || 1;
-
-  canvas.width = box.width * ratio;
-  canvas.height = box.height * ratio;
-
-  ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
-
-  const gradient = ctx.createLinearGradient(0, 0, box.width, box.height);
-  gradient.addColorStop(0, "#c28b4e");
-  gradient.addColorStop(0.5, "#f0d8a6");
-  gradient.addColorStop(1, "#9a6339");
-
-  ctx.globalCompositeOperation = "source-over";
-  ctx.fillStyle = gradient;
-  ctx.fillRect(0, 0, box.width, box.height);
-  ctx.fillStyle = "#fff7e5";
-  ctx.font = "14px Georgia";
-  ctx.textAlign = "center";
-  ctx.fillText("✧ SCRATCH HERE ✧", box.width / 2, box.height / 2);
-}
-
-function scratch(event) {
-  if (!scratching) return;
-
-  const box = canvas.getBoundingClientRect();
-  ctx.globalCompositeOperation = "destination-out";
-  ctx.beginPath();
-  ctx.arc(event.clientX - box.left, event.clientY - box.top, 24, 0, Math.PI * 2);
-  ctx.fill();
-  document.querySelector(".scratch-hint").textContent =
-    "Our special day: 20 November 2026 ♡";
-}
-
-canvas.addEventListener("pointerdown", event => {
-  scratching = true;
-  canvas.setPointerCapture(event.pointerId);
-  scratch(event);
-});
-
-canvas.addEventListener("pointermove", scratch);
-canvas.addEventListener("pointerup", () => scratching = false);
-canvas.addEventListener("pointercancel", () => scratching = false);
-window.addEventListener("resize", setupScratch);
-setupScratch();
-
-const lightbox = document.getElementById("lightbox");
-const lightboxImage = document.getElementById("lightboxImage");
-
-document.querySelectorAll(".gallery-image").forEach(button => {
-  button.addEventListener("click", () => {
-    lightboxImage.src = button.dataset.image;
-    lightbox.classList.add("show");
-  });
-});
-
-document.getElementById("closeLightbox").addEventListener("click", () => {
-  lightbox.classList.remove("show");
-});
-
-lightbox.addEventListener("click", event => {
-  if (event.target === lightbox) lightbox.classList.remove("show");
-});
 </script>
-
 </body>
 </html>
